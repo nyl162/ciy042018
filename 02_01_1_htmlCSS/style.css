@@ -12,4 +12,15 @@ body{
 }
 .classB{
     color: green;
+    font-size: 100px;
+}
+.classB{
+    color: red;
+}
+.b{
+    color: red;
+}
+.a{
+    font-size: 26px;
+    color:blue;
 }
