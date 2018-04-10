@@ -15,8 +15,28 @@
 }
 .mycolor{
     color: rebeccapurple;
-    background-color: palegoldenrod
+    background-color: palegoldenrod;
+    font-size: 3.5rem;
 }
 .mydiv{
-    background-color: navy
+    background-color: navy;
+    color:green;
+}
+
+.innerdiv{
+    /*border-top-color: red;*/
+    background-color: black;
+    color: white;
+    border:20px dashed red;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
+.outerdiv{
+    background-color: blue;
+}
+.box{
+    max-width: 50%;
+    background-color: black;
 }
