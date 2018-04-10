@@ -14,12 +14,18 @@
 /*7. create an inner padding (space) of size: 1rem*/
 /*8. create a shadow: 5px 5px 5px #aaa*/
 .my-container{
-    border-color: #aaa;
+    /*border-color: #aaa; !!!!not working without thickness*/
+    border: 1px solid #aaa;
     background-color: white;
     max-width: 600px;
     margin: 10px auto;
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;*/
     padding: 1rem;
     box-shadow: 5px 5px 5px #aaa;
+    border-radius: 10px;
 }
 
 /*9. change text color to: orangered*/
@@ -37,5 +43,6 @@
 .my-hr{
     width: 20%;
     border: 10px solid orangered;
-    margin-left: 0px;
+    margin-left: 0;
+    border-radius: 10px;
 }
