@@ -46,3 +46,19 @@
 .my-ul2{
     list-style-type: decimal-leading-zero;
 }
+
+@media(max-width:768px){
+
+    .my_title{
+        font-size: 20px;
+        color: red;
+    }
+    
+}
+@media(min-width:768px){
+
+    .my_title{
+        font-size: 60px;
+    }
+    
+}
