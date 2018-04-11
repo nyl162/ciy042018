@@ -41,5 +41,8 @@
     background-color: black;
 }
 .my-ul{
-    list-style-type: lower-greek;
+    list-style-type: lower-roman;
+}
+.my-ul2{
+    list-style-type: decimal-leading-zero;
 }
