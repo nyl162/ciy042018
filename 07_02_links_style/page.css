@@ -40,6 +40,7 @@
 .my-link{
 	font-weight: 900;	
 	text-decoration: none;
+	background-color:white; /*must have to activate visited bgcolor*/
 	color: black;
 }
 /*4. invert the color: text is white, background is black*/
@@ -53,5 +54,5 @@
 .my-link:visited{
 	color: violet;
 	background-color: black;
-	margin-left: 1rem;
+	margin-left: 1rem; /*somehow not working*/
 }
