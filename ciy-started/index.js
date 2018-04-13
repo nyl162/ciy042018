@@ -40,3 +40,28 @@ function renderList(){
 }
 
 renderList();
+
+function doPush(){
+    numbers.push(numbers[numbers.length -1]+1);
+    renderList();
+}
+function doPop(){
+    numbers.pop();
+    renderList();
+}
+function doShift(){
+    numbers.shift();
+    renderList();
+}
+function doUnShift(){
+    numbers.unshift(numbers[0]-1);
+    renderList();
+}
+function doSplice(){
+    numbers.splice(2,1,4.5);
+    renderList();
+}
+function doSort(){
+    numbers.sort(function(a, b){return b-a}); 
+    renderList();
+}
